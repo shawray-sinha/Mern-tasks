@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>HLML task-5</title>
+  </head>
+  <style>
+    table {
+      font-family: arial, sans-serif;
+      border-collapse: collapse;
+   width: fit-content;
+      align-items: center;
+      text-align:center;
+    }
+    
+    td {
+      border: 1px solid #191b1b;
+      text-align: left;
+      padding: 8px;
+      width: fit-content;
+    }
+    
+    tr {
+      background-color: #edf2f3;
+      text-align:center;
+    }
+    h1{
+        color: #4845ac;
+        text-decoration-color: blue;
+    }
+    .first {
+text-align: right;
+    }
+    </style>
+  <body>
+    <center><h1>Registration form</h1>
+    <table>
+    <tr>
+        <td>First Name</td>
+        <td><form action="/action_page.php" autocomplete="on">
+            <input type="text" id="fname" name="fname"><br><br>
+        </form>
+    </td>
+    </tr>
+    <tr>
+        <td>Last Name</td>
+        <td><form action="/action_page.php" autocomplete="on">
+            <input type="text" id="lname" name="lname"><br><br>
+        </form>
+           </td>
+</tr>
+<tr>
+    <td>Email</td>
+    <td><form action="/action_page.php" autocomplete="on">
+        <input type="text" id="email" name="email"><br><br>
+    </form>
+</td>
+</tr>
+<tr>
+  <td>Password</td>
+  <td><form action="/action_page.php" autocomplete="on">
+    <input type="password" id="password" name="password"><br><br>
+</form></td>
+</tr>
+<tr>
+    <td>Re-Password</td>
+    <td><form action="/action_page.php" autocomplete="on">
+      <input type="password" id="password" name="password"><br><br>
+  </form></td>
+  </tr>
+  <tr>
+    <td>Gender</td>
+    <td> <input type="radio" id="male" name="Gender" value="Male">
+          <label for="male">Male</label><br>
+          <input type="radio" id="female" name="Gender" value="Female">
+          <label for="female">Female</label>
+    </td>
+  </tr>
+  <tr>
+    <td>Age</td>
+    <td><form action="/action_page.php" autocomplete="on">
+        <input type="text" id="email" name="email"><br><br>
+    </form>
+</td>
+</tr>
+<tr>
+    <td>Phone Number</td>
+    <td><form action="/action_page.php" autocomplete="on">
+        <input type="number" id="phno" name="phno"><br><br>
+    </form>
+</td>
+</tr>
+<tr>
+    <td>Address</td>
+    <td><textarea name="Address" id="text" cols="30" rows="10"></textarea>
+</td>
+</tr>
+<tr>
+    <td>State</td>
+    <td><form action="/action_page.php" autocomplete="on">
+        <input type="text" id="state" name="state"><br><br>
+    </form>
+</td>
+</tr>
+<tr>
+    <td>Country</td>
+    <td><form action="/action_page.php" autocomplete="on">
+        <select id="Country" name="Country">
+            <OPtion value="Choose your country">choose your country</OPtion>
+            <option value="india">india</option>
+            <option value="US">US</option>
+            <option value="UK">US</option>
+          </select>
+    </form>
+</td>
+</tr>
+<tr>
+    <td>Languages known</td>
+    <td><input type="radio" id="English" name="languages known" value="English">
+          <label for="English">English</label>
+          <input type="radio" id="Kannada" name="languages known" value="Kannada">
+          <label for="Kannada">Kannada</label>
+        <input type="radio" id="Hindi" name="languages known" value="Hindi">
+          <label for="Hindi">Hindi</label>
+        <input type="radio" id="Telugu" name="languages known" value="Telugu">
+          <label for="Telugu">Telugu</label>
+    </td>
+</tr>
+<tr>
+    <td colspan="2"><form>
+    <input type="radio" id="" name="" value="">
+    <label for="">Hereby I declare all details are true .</label><br>
+</form></td>
+</tr>
+<tr>
+    <td colspan="2" class="first">
+ Log in to <a href="">Ethnus</a> website
+    </td>
+</tr>
+</table>
+<br><form action="/action_page.php"><input type="submit" value="Register"></form>
+</center>
+  </body>
+  </html>
